@@ -107,3 +107,31 @@ margin-bottom: 20px;
     width: 50%;
     text-align: center;
 }
+
+.about-box{
+
+    height: 500px;
+    align-items: center;
+}
+.about-box1{
+
+    width: 50%;
+}
+
+.about-box1 img{
+
+    
+    width: 75%;
+    
+    border-radius: 50%;
+}
+.about-box2{
+
+    width: 50%;
+}
+
+.about-box2 h1{
+
+    font-size: 45px;
+    margin-bottom: 5px;
+}
