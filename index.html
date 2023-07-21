@@ -6,9 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tekoverse - Welcome to my World</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
 </head>
 
-<body class="background">
+<body id="home" class="background">
     <nav class="navbar">
         <ul class="nav-list">
             <div class="logo"><img src="Tekoverse-Logo-Image.webp" alt="Tekoverse Logo"></div>
@@ -18,7 +23,7 @@
         </ul>
         <div class="nav-box">
             <div class="btn-box">
-                <input type="search" id="search">
+                <input id="search">
                 <button id="btn">Search</button>
             </div>
         </div>
@@ -40,12 +45,12 @@
     </section>
 
 
-    <section class="main-box about-box">
+    <section id="about" class="main-box about-box">
 
         <div class="about-box1"><img src="About img.jpg" alt=""></div>
         <div class="about-box2">
 
-            <h1 id="about">About Us</h1>
+            <h1>About Us</h1>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, eius. Corrupti, fugiat? Incidunt, recusandae
                 rerum? Quia rem aspernatur fugiat tempora recusandae a eligendi et voluptatibus nulla. Beatae repellat
@@ -55,7 +60,7 @@
         </div>
     </section>
 
-    <section class="card-section main-box">
+    <section id="contact" class="card-section main-box">
         <div class="Cards">
             <div class="card-insider">
 
@@ -85,6 +90,11 @@
         </div>
 
     </section>
+
+
+
+
+
 
 
     <script src="script.js"></script>
