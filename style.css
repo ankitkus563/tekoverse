@@ -135,3 +135,50 @@ margin-bottom: 20px;
     font-size: 45px;
     margin-bottom: 5px;
 }
+.card-section{
+
+    display: flex;
+}
+
+.Cards{
+background-color: red;
+    width: 300px;
+    height: 400px;
+    padding: 2%;
+    margin: 25px;
+    border-radius: 5px;
+}
+.Cardgreen{
+    background-color: green;
+        width: 300px;
+        height: 400px;
+        padding: 2%;
+        margin: 25px;
+        border-radius: 5px;
+    }
+
+.card-insider{
+   
+    background: rgb(0, 0, 0,0.7) url(travel\ img.jpg);
+    background-size: cover;
+    background-blend-mode: soft-light;
+    width: 300px;
+    height: 250px;
+
+}
+
+.card-insider2{
+   
+    background: rgb(0, 0, 0,0.7) url(img.jpg);
+    background-size: cover;
+    background-blend-mode: soft-light;
+
+}
+.card h1{
+    padding: 15px 0px;
+
+}
+.card p{
+    padding: 5px 0px;
+    
+    }
