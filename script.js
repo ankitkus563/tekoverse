@@ -5,12 +5,12 @@ for(let i=0; i<cardInsider.length; i++){
 
     cardInsider[i].addEventListener("pointerenter", () => {
 
-        cardInsider[i].classList.add("card-insider2");
+        cardInsider[i].classList.add("card-insider"+i);
         Cards[i].classList.add("Cardgreen");
     });
     cardInsider[i].addEventListener("pointerleave", () => {
 
-        cardInsider[i].classList.remove("card-insider2");
+        cardInsider[i].classList.remove("card-insider"+i);
         Cards[i].classList.remove("Cardgreen");
     });
 }

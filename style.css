@@ -2,9 +2,22 @@
 
     margin: 0;
     padding: 0;
-    color: rgb(97, 178, 245);
-    font-family: Arial, Helvetica, sans-serif
+    color: rgb(45 178 229);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.font-style{
+
+    font-family: 'Tangerine', serif;
+        font-size: 45px;
+}
+
+.title-text{
+
+    color: white;
+    padding: 5px;
+}
+
 .navbar{
 
     display: flex;
@@ -68,7 +81,7 @@ button{
 
 .background{
 
-    background: rgb(0, 0, 0,0.7) url(img.jpg);
+    background: rgb(0, 0, 0,0.7) url(/Coding\ Related\ Img.jpg);
     background-size: cover;
     background-blend-mode: soft-light;
 }
@@ -78,15 +91,12 @@ button{
     display: flex;
 align-items: center;
    width: 80%;
-   margin: auto;
-   margin-top: 5%;
-   
+   margin: auto;   
 }
 
 .fristhalf{
 
-    width: 50%;
-    
+    width: 50%
     
 }
 .fristhalf p{
@@ -107,6 +117,23 @@ margin-bottom: 20px;
     width: 50%;
     text-align: center;
 }
+.secondhalf img{
+
+    width: 85%;
+}
+
+.main-heading{
+
+    text-align: center;
+    background-color:rgb(47 49 146);
+    padding: 15px;
+    background-image: url();
+    color: white;
+}
+.main-heading h2{
+
+    color: white;
+}
 
 .about-box{
 
@@ -121,7 +148,7 @@ margin-bottom: 20px;
 .about-box1 img{
 
     
-    width: 75%;
+    width: 50%;
     
     border-radius: 50%;
 }
@@ -130,7 +157,7 @@ margin-bottom: 20px;
     width: 50%;
 }
 
-.about-box2 h1{
+.about-box2 h3{
 
     font-size: 45px;
     margin-bottom: 5px;
@@ -141,7 +168,7 @@ margin-bottom: 20px;
 }
 
 .Cards{
-background-color: red;
+background-color: rgb(8, 18, 22);
     width: 300px;
     height: 400px;
     padding: 2%;
@@ -149,7 +176,7 @@ background-color: red;
     border-radius: 5px;
 }
 .Cardgreen{
-    background-color: green;
+    background-color: rgb(47 49 146);
         width: 300px;
         height: 400px;
         padding: 2%;
@@ -158,18 +185,55 @@ background-color: red;
     }
 
 .card-insider{
-   
-    background: rgb(0, 0, 0,0.7) url(travel\ img.jpg);
-    background-size: cover;
+   background-size: cover;
     background-blend-mode: soft-light;
-    width: 300px;
     height: 250px;
 
 }
 
+.card-main-img1{
+   
+    background: rgb(0, 0, 0,0.7) url(Card-img\ \(1\).jpg);
+    background-size: cover;
+    background-blend-mode: soft-light;
+    height: 250px;
+
+}
+.card-main-img2{
+   
+    background: rgb(0, 0, 0,0.7) url(Card-img\ \(2\).jpg);
+    background-size: cover;
+    background-blend-mode: soft-light;
+    height: 250px;
+
+}
+.card-main-img3{
+   
+    background: rgb(0, 0, 0,0.7) url(Card-img\ \(3\).jpg);
+    background-size: cover;
+    background-blend-mode: soft-light;
+    height: 250px;
+
+}
+
+
+.card-insider0{
+   
+    background: rgb(0, 0, 0,0.7) url(html\ css\ and\ boostrap.png);
+    background-size: cover;
+    background-blend-mode: soft-light;
+
+}
+.card-insider1{
+   
+    background: rgb(0, 0, 0,0.7) url(jquery-javascript.png);
+    background-size: cover;
+    background-blend-mode: soft-light;
+
+}
 .card-insider2{
    
-    background: rgb(0, 0, 0,0.7) url(img.jpg);
+    background: rgb(0, 0, 0,0.7) url(Wordpress\ img.jpg);
     background-size: cover;
     background-blend-mode: soft-light;
 
@@ -185,4 +249,26 @@ background-color: red;
     .tab-section{
 
         color: black;
+    }
+
+    .footer{
+        padding: 50px 0px 0px 0px;
+        background-color: black;
+        height: 200px;
+        width: 100%;
+    }
+
+    .footer-list{
+        text-align: center;
+    }
+    .footer-list a{
+        text-align: center;
+        padding: 2%;
+        text-decoration: none;
+
+    }
+    .footer p{
+        text-align: center;
+        margin: 2%;
+
     }
